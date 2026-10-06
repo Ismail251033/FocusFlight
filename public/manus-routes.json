@@ -1,0 +1,14 @@
+{
+  "routes": [
+    { "path": "/", "title": "Focus Flight Home" },
+    { "path": "/choose-time", "title": "Choose your focus time" },
+    { "path": "/flights", "title": "Choose your flight" },
+    { "path": "/flight/:id", "title": "Flight details" },
+    { "path": "/dnd", "title": "Do Not Disturb" },
+    { "path": "/focus", "title": "Focus flight" },
+    { "path": "/landing", "title": "Landing" },
+    { "path": "/summary", "title": "Flight summary" },
+    { "path": "/stats", "title": "Statistics" },
+    { "path": "/settings", "title": "Settings" }
+  ]
+}

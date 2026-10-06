@@ -1,0 +1,27 @@
+{
+  "rewrites": [
+    { "source": "/choose-time", "destination": "/index.html" },
+    { "source": "/flights", "destination": "/index.html" },
+    { "source": "/flight/:id", "destination": "/index.html" },
+    { "source": "/dnd", "destination": "/index.html" },
+    { "source": "/focus", "destination": "/index.html" },
+    { "source": "/landing", "destination": "/index.html" },
+    { "source": "/summary", "destination": "/index.html" },
+    { "source": "/stats", "destination": "/index.html" },
+    { "source": "/settings", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/sw.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/index.html",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, must-revalidate" }
+      ]
+    }
+  ]
+}

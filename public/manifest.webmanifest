@@ -1,0 +1,12 @@
+{
+  "name": "Focus Flight",
+  "short_name": "Focus Flight",
+  "description": "Turn your focus session into a flight.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#10151b",
+  "theme_color": "#10151b",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
